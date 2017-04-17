@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <!--起始小时-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerStartHour"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
+        app:itemNumber="3"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+    <!--起始分钟-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerStartMinutes"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
+        app:itemNumber="3"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+
+    <TextView
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:gravity="center"
+        android:text="至" />
+
+    <!--结束小时-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerEndHour"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
+        app:itemNumber="3"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+    <!--结束分钟-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerEndMinutes"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp"
+        app:itemNumber="3"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+
+</LinearLayout>

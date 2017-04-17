@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--等待对话框所要的-->
+    <declare-styleable name="LoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallSpinFadeLoader" value="22" />
+        </attr>
+        <attr name="indicator_color" format="color" />
+    </declare-styleable>
+    <!--刷新所要的-->
+    <declare-styleable name="PtrFrameLayout">
+        <!-- Optional. If you put header and content in xml, you can you these to specify them. -->
+        <attr name="ptr_header" format="reference" />
+        <attr name="ptr_content" format="reference" />
+
+        <!-- the resistance when you are moving the frame -->
+        <attr name="ptr_resistance" format="float" />
+
+        <!-- the ration of the height of the header to trigger refresh -->
+        <attr name="ptr_ratio_of_header_height_to_refresh" format="float" />
+
+        <attr name="ptr_duration_to_close" format="integer" />
+        <attr name="ptr_duration_to_close_header" format="integer" />
+
+        <!-- pull to refresh, otherwise release to refresh, default is release to refresh -->
+        <attr name="ptr_pull_to_fresh" format="boolean" />
+
+        <!-- keep header when refreshing-->
+        <attr name="ptr_keep_header_when_refresh" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PtrClassicHeader">
+        <attr name="ptr_rotate_ani_time" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomerView">
+        <!--标题-->
+        <attr name="titleText1" format="string" />
+        <attr name="titleTextColor1" format="color" />
+        <attr name="titleTextSize1" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <!--边框宽度-->
+        <attr name="civ_border_width" format="dimension" />
+        <!--边框颜色-->
+        <attr name="civ_border_color" format="color" />
+        <!--代表边框是绘制在图片外部，不覆盖图片最外层，还是在图片之上绘制，覆盖最外层-->
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomerImageView">
+        <!--文本内容-->
+        <attr name="titleText2" format="string" />
+        <!--文本颜色-->
+        <attr name="titleTextColor2" format="color" />
+        <!--文本大小-->
+        <attr name="titleTextSize2" format="dimension" />
+        <!--图片-->
+        <attr name="image2" format="reference" />
+        <!--图片样式-->
+        <attr name="imageScaleType2">
+            <enum name="fillXY" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--TagFlowLayout-->
+    <declare-styleable name="TagFlowLayout">
+        <!--自动选中-->
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <!--最大选中数量-->
+        <attr name="max_select" format="integer"></attr>
+        <!--布局方式-->
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <!--开关-->
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswBackMeasureRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+        <attr name="kswTextOn" format="string" />
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextMarginH" format="dimension" />
+        <attr name="kswAutoAdjustTextPosition" format="boolean" />
+    </declare-styleable>
+
+    <!--超级textview-->
+    <declare-styleable name="SuperTextView">
+        <attr name="sLeftIconRes" format="reference" />
+        <attr name="sRightIconRes" format="reference" />
+        <attr name="sRightCheckBoxRes" format="reference" />
+
+        <attr name="sLeftTextString" format="string" />
+        <attr name="sCenterTextString" format="string" />
+        <attr name="sRightTextString" format="string" />
+
+        <attr name="sLeftTopTextString" format="string" />
+        <attr name="sLeftBottomTextString" format="string" />
+        <attr name="sLeftBottomTextString2" format="string" />
+
+
+        <attr name="sTopLineMargin" format="dimension" />
+        <attr name="sBottomLineMargin" format="dimension" />
+        <attr name="sBothLineMargin" format="dimension" />
+
+        <attr name="sLeftIconMarginLeft" format="dimension" />
+        <attr name="sLeftTextMarginLeft" format="dimension" />
+
+        <attr name="sLeftTopTextMarginLeft" format="dimension" />
+        <attr name="sLeftBottomTextMarginLeft" format="dimension" />
+        <attr name="sLeftBottomTextMarginLeft2" format="dimension" />
+
+        <attr name="sRightIconMarginRight" format="dimension" />
+        <attr name="sRightTextMarginRight" format="dimension" />
+        <attr name="sRightCheckBoxMarginRight" format="dimension" />
+        <attr name="sRightCheckBoxShow" format="boolean" />
+        <attr name="sIsChecked" format="boolean" />
+        <attr name="sUseRipple" format="boolean" />
+
+        <attr name="sLeftTextSize" format="dimension" />
+        <attr name="sLeftTopTextSize" format="dimension" />
+        <attr name="sLeftBottomTextSize" format="dimension" />
+        <attr name="sLeftBottomTextSize2" format="dimension" />
+        <attr name="sRightTextSize" format="dimension" />
+        <attr name="sCenterTextSize" format="dimension" />
+
+        <attr name="sBackgroundColor" format="color" />
+        <attr name="sLeftTextColor" format="color" />
+        <attr name="sLeftTopTextColor" format="color" />
+        <attr name="sLeftBottomTextColor" format="color" />
+        <attr name="sLeftBottomTextColor2" format="color" />
+        <attr name="sRightTextColor" format="color" />
+        <attr name="sCenterTextColor" format="color" />
+
+        <attr name="sIsSingLines" format="boolean" />
+        <attr name="sMaxLines" format="integer" />
+        <attr name="sMaxEms" format="integer" />
+
+        <attr name="sLineShow" format="enum">
+            <enum name="none" value="0" />
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="both" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+    <!--选择器-->
+    <declare-styleable name="WheelView">
+        <attr name="unitHeight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextSize" format="dimension" />
+
+        <attr name="lineColor" format="color" />
+        <attr name="lineHeight" format="dimension" />
+
+        <attr name="maskHeight" format="dimension" />
+        <attr name="noEmpty" format="boolean" />
+        <attr name="isEnable" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RatingBar">
+        <!--星星间距-->
+        <attr name="starDistance" format="dimension" />
+        <!--星星大小-->
+        <attr name="starSize" format="dimension" />
+        <!--星星个数-->
+        <attr name="starCount" format="integer" />
+        <!--星星空图-->
+        <attr name="starEmpty" format="reference" />
+        <!--星星满图-->
+        <attr name="starFill" format="reference" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_main">#f98703</color>
+
+    <!-- 全透明色-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+
+
+    <color name="transparent_black">#00000000</color>
+    <!-- 半透明色-->
+
+    <color name="translucent">#7f000000</color>
+
+    <color name="dialog_translucent">#80000000</color>
+
+    <!-- 常用颜色值信息-->
+    <color name="green">#00ff00</color>
+    <color name="gray">#808080</color>
+    <color name="deepgray">#bababa</color>
+    <color name="darkGreen">#3A9B00</color>
+    <color name="blue">#0000ff</color>
+    <color name="indianRed">#CD5C5C</color>
+
+    <!--TextView 控件颜色 -->
+    <color name="global_tv_color">#666666</color>
+    <color name="setting_txv_color">#3d3d3d</color>
+    <color name="global_hint_text_color">#979797</color>
+    <!-- 分隔线颜色 -->
+    <color name="global_separator_color">#e3e3e3</color>
+
+    <!--对话框的颜色-->
+    <color name="dialog_title_text_color">#666666</color>
+    <color name="dialog_edit_text_color">#3f3f3f</color>
+    <color name="dialog_edit_bg_color">#E2E2E2</color>
+    <color name="dialog_bg_color">#26000000</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_797979">#797979</color>
+    <color name="color_323232">#323232</color>
+
+    <!-- 登陆页tab颜色 -->
+    <color name="login_select">#e5e5e5</color>
+    <color name="line_color">#c9c9c9</color>
+    <color name="menu_bg_color">#333333</color>
+    <color name="color_8F8F94">#8F8F94</color>
+    <color name="color_2A2A2A">#2A2A2A</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_EFEFF4">#EFEFF4</color>
+    <color name="color_007AFF">#007AFF</color>
+
+    <color name="color_4CD964">#4CD964</color>
+
+    <color name="popup_bg">#8f000000</color>
+
+
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+
+    <color name="ksw_md_solid_shadow">#33000000</color>
+
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+
+    <color name="color_D90404">#D90404</color>
+    <color name="color_FF3939">#FF3939</color>
+
+
+    <color name="essence_tab_text_color_normal">#ff847d7b</color>
+    <color name="essence_tab_text_color_press">#FF4801</color>
+
+    <color name="common_pressed">#20000000</color>  <!--白色背景按下去的颜色-->
+    <color name="color_BFBFBF">#BFBFBF</color>
+
+    <color name="color_17863D">#17863D</color>
+    <color name="color_0475D2">#0475D2</color>
+    <color name="color_217345">#217345</color>
+    <color name="color_80397B">#80397B</color>
+    <color name="color_DC3C00">#DC3C00</color>
+    <color name="color_107C0F">#107C0F</color>
+    <color name="color_E4E4E4">#E4E4E4</color>
+    <color name="color_727272">#727272</color>
+    <color name="color_18A1B1">#18A1B1</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_cfcfcf">#cfcfcf</color>
+    <color name="color_99ABCE">#99ABCE</color>
+    <color name="color_55b261">#55b261</color>
+    <color name="color_f08300">#f08300</color>
+    <color name="color_BB1E4B">#BB1E4B</color>
+    <color name="color_6D3BB8">#6D3BB8</color>
+    <color name="color_0A57BF">#0A57BF</color>
+    <color name="color_D6582F">#D6582F</color>
+    <color name="color_009F00">#009F00</color>
+    <color name="color_2874EC">#2874EC</color>
+    <color name="color_999999">#999999</color>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <!--起始年份-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerStartYear"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_200dp"
+        app:itemNumber="5"
+        android:layout_weight="1"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+
+    <!--起始月份-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerStartMonth"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_200dp"
+        app:itemNumber="5"
+        android:layout_weight="1"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+    <!--起始日份-->
+    <com.xjf.repository.view.WheelView
+        android:id="@+id/mTimePickerStartDay"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="@dimen/dimen_200dp"
+        app:itemNumber="5"
+        android:layout_weight="1"
+        app:lineColor="#BFBFBF"
+        app:maskHeight="@dimen/dimen_10dp"
+        app:noEmpty="true"
+        app:normalTextColor="#BFBFBF"
+        app:normalTextSize="@dimen/dimen_10sp"
+        app:selectedTextColor="@android:color/black"
+        app:selectedTextSize="@dimen/dimen_22sp"
+        app:unitHeight="@dimen/dimen_30dp" />
+
+
+</LinearLayout>
